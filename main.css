@@ -1,0 +1,33 @@
+body {
+  background-color: aliceblue;
+}
+
+.product-cards {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  border: solid 1px darkblue;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+td {
+  border: solid 1px lightblue;
+}
+
+.prod-image {
+  text-align: center;
+  width: 100%;
+}
+
+.footer {
+  font-size: 10pt; 
+}
+
+.bolder-font {
+  font-weight: bolder;
+}
