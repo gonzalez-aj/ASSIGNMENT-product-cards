@@ -12,7 +12,7 @@ table {
   font-family: sans-serif;
 }
 
-.title {
+header.title {
   border: dotted 1px darkblue;
   text-align: center;
   padding-left: 10px;
@@ -33,6 +33,7 @@ img {
   text-align: center;
   padding: 0px;
   margin: 0px;
+  width: 100%;
 
 }
 
@@ -45,7 +46,6 @@ p.descrip {
 }
 
 .avail {
-  width: 99.5%;
   background-color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -90,4 +90,8 @@ footer {
   margin-left: 25px;
   margin-bottom: 2px;
   font-size: 16px;
+}
+
+.yellow-dunk {
+  height: 156px;
 }
