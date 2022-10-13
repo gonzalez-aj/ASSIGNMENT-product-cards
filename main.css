@@ -12,11 +12,12 @@ table {
   font-family: sans-serif;
 }
 
-.title {
+header.title {
   border: dotted 1px darkblue;
   text-align: center;
   padding-left: 10px;
   padding-right: 10px;
+  margin-top: 0px;
 }
 
 h2.title{
@@ -32,6 +33,7 @@ img {
   text-align: center;
   padding: 0px;
   margin: 0px;
+  width: 100%;
 
 }
 
@@ -40,18 +42,10 @@ p.descrip {
   margin-top: 0px;
   padding-left: 8px;
   padding-right: 8px;
+  text-align: justify;
 }
 
-.footer {
-  font-size: 10pt; 
-}
-
-.bolder-font {
-  font-weight: bolder;
-}
-
-h3.avail {
-  width: 99%;
+.avail {
   background-color: gray;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -59,5 +53,45 @@ h3.avail {
   margin-left: 0px;
   color: yellow;
   border: 0px;
-  font-weight:normal;
+  font-weight: normal;
+}
+
+.specs{
+  font-weight: normal;
+  margin-bottom: 0%;
+  margin-left: 15px;
+}
+
+.bolder-font {
+  font-weight: bolder;
+  margin-top: 2px;
+  margin-left: 25px;
+  margin-bottom: 2px;
+  font-size: 14px;
+}
+
+footer {
+  margin: 0% 0% 2px 0%;
+  padding: 0%;
+  font-size: 11px; 
+}
+
+.pricing {
+  margin-top: 1px;
+  font-weight: normal;
+  margin-bottom: 0%;
+  margin-left: 15px;
+  font-size: 21px;
+}
+
+.price-font {
+  font-weight: bolder;
+  margin-top: 2px;
+  margin-left: 25px;
+  margin-bottom: 2px;
+  font-size: 16px;
+}
+
+.yellow-dunk {
+  height: 156px;
 }
